@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas Responsivas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead, tfoot {
+            background-color: #383838;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis possimus debitis exercitationem architecto unde nobis sint doloribus suscipit dolorum libero fugit tenetur, minima dolore voluptas necessitatibus reprehenderit ab vero aliquam!</p>
+    <table>
+        <caption>Tabelas Responsivas</caption>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>jan</th>
+                <th>fev</th>
+                <th>mar</th>
+                <th>abr</th>
+                <th>mai</th>
+                <th>jun</th>
+                <th>jul</th>
+                <th>ago</th>
+                <th>set</th>
+                <th>out</th>
+                <th>nov</th>
+                <th>dez</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+</body>
+</html>
